@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/logo.png" width="150" style="margin-right: 100px"/>
+  <img src="./assets/python.png" width="120" /> 
+</p>
 <h1 align="center" style="font-weight:bold">
     DataAnnotated
 </h1>
