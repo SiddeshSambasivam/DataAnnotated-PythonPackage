@@ -62,3 +62,15 @@ class PasswordValidator(Validator):
                 cursor_position=len(password.text))
 
         return True
+
+def search(annotation_data:list, task_name:str):
+    '''
+    Searches the annotation data for the given task name
+    '''
+
+    for data in annotation_data:
+
+        if data['task_name'] == task_name:
+            return data
+        
+    return -1

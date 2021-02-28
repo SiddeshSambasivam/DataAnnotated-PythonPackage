@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="DataAnnotated", # Replace with your own username
-    version="0.0.1",
+    name="DataAnnotated",
+    version="1.0.0",
     author="Siddesh Sambasivam Suseela",
     author_email="plutocrat45@gmail.com",
     description="Python package for DataAnnotated platform",
