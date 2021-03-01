@@ -39,7 +39,7 @@ class TextEntityAnnotation:
 
 
         return sentences, entities
-        
+
     def get_dataset(self, size=None):
 
         return self.sentences[:size], self.entities[:size]
