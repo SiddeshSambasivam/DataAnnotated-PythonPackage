@@ -48,7 +48,7 @@ def Login():
             'validate':EmailValidator
         },
         {
-            'type': 'input',
+            'type': 'password',
             'name': 'password',
             'message':'Password',
             'validate': PasswordValidator
